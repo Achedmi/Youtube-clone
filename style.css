@@ -56,10 +56,10 @@
   justify-content: end;
 }
 body {
-  background-color: #252525;
+  background-color: #181818;
 }
 .body {
-  background-color: #252525;
+  background-color: #181818;
   height: 1000px;
   display: grid;
   grid-template-columns: 80px auto;
@@ -98,6 +98,15 @@ body {
 .categories > div {
   margin-right: 10px;
 }
+
+.categories > div :hover {
+  background-color: #4b4a4a;
+}
+.categories > div > .active {
+  background-color: white;
+  color: black;
+}
+
 .home-icon {
   height: 80px;
   display: flex;
@@ -115,6 +124,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding: 15px;
 }
 .card {
   position: relative;
