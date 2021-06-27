@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="script.js"></script>
     <title>Youtube</title>
   </head>
   <body>
     <div class="nav-bar">
       <div class="youtube-logo">
-        <div class="menu-button">
+        <div class="menu-button" onclick="show_hide_menu()">
           <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
         </div>
         <div class="logo">
@@ -99,8 +100,8 @@
     </div>
     <div class="body">
       <div class="lef-nav">
-        <div class="home-icon">
-          <img src="./assets/1x/outline_home_white_24dp.png" alt="" />
+        <div class="home-icon ">
+          <img src="./assets/1x/outline_home_white_24dp.png"  alt="" />
           <p>Home</p>
         </div>
         <div class="home-icon">
@@ -116,257 +117,34 @@
           <p>Home</p>
         </div>
       </div>
+      <div class="big-lef-nav">
+        <div class="home-icon active">
+          <img src="./assets/1x/outline_home_white_24dp.png" alt="" />
+          <p>Home</p>
+        </div>
+        <div class="home-icon">
+          <img src="./assets/1x/outline_explore_white_24dp.png" alt="" />
+          <p>Home</p>
+        </div>
+        <div class="home-icon">
+          <img src="./assets/1x/outline_subscriptions_white_24dp.png" alt="" />
+          <p>Home</p>
+        </div>
+        <div class="home-icon">
+          <img src="./assets/1x/outline_video_library_white_24dp.png" alt="" />
+          <p>Home</p>
+        </div>        
+      </div>
       <div class="home">
         <div class="categories">
           <div>
-            <p class="active">lorem</p>
+            <p class="active">lorem lorem</p>
           </div>
-          <div>
-            <p>lorem lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>loreml orem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>loremlorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
-          <div>
-            <p>lorem</p>
-          </div>
+
         </div>
         <div class="main">
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                  <p>1.5M views</p>
-                </div>
-                <div class="about">
-                  <img
-                    src="./assets/1x/outline_more_vert_white_24dp.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-                </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="tupmnail"></div>
-              <div class="title-photo">
-                <div class="photo">
-                  <div class="profile-pic"></div>
-                </div>
-                <div class="title">
-                  <h3>JE REGARDE UN EPISODE DE NEXT (10 ans après) #8</h3>
-                  <p>Moussa vlogs</p>
-                </div>
-                <div class="about">
-                  <img src="./assets/1x/baseline_menu_white_24dp.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>
